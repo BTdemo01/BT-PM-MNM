@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Giới thiệu
+{% endblock %}
+
+{% block content %}
+    <h1>trang giới thiệu</h1>
+    <table width: 100%; border-collapse: collapse;>
+      <thead>
+        <tr>
+          <th>Order ID</th>
+          <th>Customer ID</th>
+          <th>Address</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>
+            <button class="action-btn edit">Edit</button>
+            <button class="action-btn">Approve</button>
+            <button class="action-btn cancel">Cancel</button>
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+{% endblock %}
