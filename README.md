@@ -108,8 +108,3 @@ python manage.py runserver
 
 ## 📞 Gặp lỗi? Xem kỹ log hoặc nhắn mình hỗ trợ fix lỗi!
 ```
-
----
-
-✅ **Muốn mình gửi file `README.md` đúng định dạng cho bạn tải về không?** Hay copy về là đủ?  
-Nếu muốn mình đóng file, mình tạo file `.md` rồi gửi link download cho bạn luôn!
