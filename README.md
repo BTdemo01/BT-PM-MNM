@@ -103,15 +103,6 @@ python manage.py runserver
 
 ## 🎉 DONE! Project đã chạy thành công trên VS Code.
 
----
-
-## 🔥 Một số lệnh Django hữu ích
-```bash
-python manage.py makemigrations   # Tạo migration mới
-python manage.py migrate          # Áp dụng migration
-python manage.py runserver        # Chạy server
-python manage.py createsuperuser  # Tạo tài khoản admin
-```
 
 ---
 
