@@ -6,14 +6,11 @@ TẢI VÀ CÀI ĐẶT PROJECT
 **Cài đặt ứng dụng**
 visual studio code (visual xanh), PostgreSQL, Postman
 
-✅ Ok! Dưới đây là nội dung hoàn chỉnh file **`README.md`** bạn chỉ cần copy hoặc mình có thể đóng gói file nếu muốn:
-
 ---
 
-```markdown
-# 📖 Hướng Dẫn Chạy Project Django Trên VS Code
+📖 Hướng Dẫn Chạy Project Django Trên VS Code
 
-## ✅ 1. Clone Project từ GitHub
+✅ 1. Clone Project từ GitHub
 ```bash
 git clone <link_git_project>
 cd <tên_thư_mục_project>
@@ -21,18 +18,18 @@ cd <tên_thư_mục_project>
 
 ---
 
-## ✅ 2. Mở project bằng VS Code
+✅ 2. Mở project bằng VS Code
 ```bash
 code .
 ```
 
 ---
 
-## ✅ 3. Tạo virtual environment (môi trường ảo)
+✅ 3. Tạo virtual environment (môi trường ảo)
 ```bash
 python -m venv venv
 ```
-### Kích hoạt môi trường ảo:
+Kích hoạt môi trường ảo:
 - **Windows:**
 ```bash
 .\venv\Scripts\activate
@@ -44,7 +41,7 @@ source venv/bin/activate
 
 ---
 
-## ✅ 4. Cài đặt các thư viện cần thiết
+✅ 4. Cài đặt các thư viện cần thiết
 ```bash
 pip install -r requirements.txt
 ```
