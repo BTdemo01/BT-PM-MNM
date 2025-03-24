@@ -4,7 +4,7 @@ https://drive.google.com/drive/folders/1-6vacjbMUGUZbmOkao6G3ZvlXN2nBg78?usp=sha
 
 TẢI VÀ CÀI ĐẶT PROJECT
 **Cài đặt ứng dụng**
-visual studio code (visual xanh), PostgreSQL, Postman, Node.js '
+visual studio code (visual xanh), PostgreSQL, Postman, Node.js , Anaconda
 
 **Cài đặt môi trường**
 ```bash
