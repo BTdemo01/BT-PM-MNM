@@ -1,1 +1,0 @@
-alert("Kiem tra file");
