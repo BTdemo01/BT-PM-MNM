@@ -115,3 +115,44 @@ python manage.py runserver
 
 ## 📞 Gặp lỗi? Xem kỹ log hoặc nhắn mình hỗ trợ fix lỗi!
 ```
+-----------------------------------------------------------------------------------------------------------------------------------
+Hướng dẫn chạy project frontend vue.js
+1. 🧰 Chuẩn bị trước
+
+### ✅ Cài Node.js (nếu chưa có)
+
+- Truy cập trang: https://nodejs.org
+- Tải và cài bản có chữ **LTS (Long Term Support)**
+- Sau khi cài, kiểm tra bằng cách mở Terminal hoặc CMD và gõ:
+
+```bash
+node -v
+npm -v
+2.Tải project
+- Clone từ GitHub:  
+  ```bash
+  git clone https://github.com/ten-nguoi-dung/ten-project.git
+  cd ten-project
+Hoặc tải project về ở dạng .zip
+- giải nén thư mục
+- Mở Terminal / CMD / PowerShell và chuyển đến thư mục project bằng lệnh
+cd đường-dẫn-tới-thư-mục-project
+3.Tải thư viện cần thiết
+- trong thư mục project chạy lệnh để cài đặt thư viện cần thiết
+npm install
+4.Chạy project
+🔹 Nếu project dùng Vite (thường có file vite.config.js):
+- chạy lênh
+npm run dev
+Sau đó bạn sẽ thấy dòng như:
+App running at:
+  > Local:   http://localhost:5173/
+Mở trình duyệt và dán link đó vào để xem project!
+🔹 Nếu project dùng Vue CLI (thường có vue.config.js):
+- chạy lệnh
+npm run serve
+Sau đó bạn sẽ thấy dòng như:
+App running at:
+  - Local:   http://localhost:8080/
+Mở trình duyệt và dán link đó vào!
+
