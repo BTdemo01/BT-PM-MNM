@@ -30,6 +30,8 @@ CREATE TABLE SanPham (
     MoTa TEXT NOT NULL,
     DonGia DECIMAL(10, 2) NOT NULL
 );
+ALTER TABLE SanPham
+ADD COLUMN HinhAnh TEXT NULL; -- Hoặc VARCHAR(500) NULL tùy nhu cầu
 
 -- Tạo bảng Khuyến Mãi
 CREATE TABLE KhuyenMai (
